@@ -1,4 +1,4 @@
-# Replication Package for "The Growing Geographic Affinity Between High- and Low-Paying Occupations"
+# Replication Package
 
 ---
 
