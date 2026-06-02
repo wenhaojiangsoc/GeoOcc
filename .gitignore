@@ -1,0 +1,25 @@
+# Large data files — never commit these
+*.RData
+!data/intermediate/placebo_results.RData
+*.dta
+!data/misc_data/*.dta
+*.dat
+*.dat.gz
+*.xls
+!data/misc_data/*.xls
+!data/misc_data/*.xlsx
+*.xlsx
+!data/misc_data/*.xlsx
+
+# Raw data directories
+data/raw_data/
+data/misc_data/msa_shapefile/
+data/misc_data/soc_code_strat.dta
+
+# Large RDS files
+*.rds
+
+# System files
+.DS_Store
+*.out
+Thumbs.db
